@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="SoapUI Groovy Script Library" resourceRoot="" soapui-version="5.2.1" id="61e618be-812a-4598-8c88-14d4c02b865a" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://api.mylotto.co.nz" type="rest" id="9bba0f31-23fb-498f-9ea7-b73c0a17d2f7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://192.168.100.15</con:endpoint><con:endpoint>http://192.168.105.150:22</con:endpoint><con:endpoint>http://localhost:8082</con:endpoint><con:endpoint>https://esapi1.cat.mylotto.co.nz</con:endpoint><con:endpoint>https://esapi3.cat.mylotto.co.nz</con:endpoint></con:endpoints><con:resource name="wager" path="/api/wagerservice/1.0/wager" id="7540e610-4abe-4859-86d3-71fe1471681d"><con:settings/><con:parameters/><con:method name="createwager" method="POST" id="99ce5b73-ff85-4079-a2f7-b5901a7e21f6"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:wag="http://localhost/wagerservice/1.0/wager">wag:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>text/html; charset=iso-8859-1</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>400 404 500 504</con:status><con:params/><con:element xmlns:wag="http://localhost/wagerservice/1.0/wager">wag:Fault</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html; charset=iso-8859-1</con:mediaType><con:status>404</con:status><con:params/><con:element>html</con:element></con:representation><con:request name="CreateWagerRequest - OL &amp; IK" mediaType="application/json" postQueryString="false" id="de4ea09f-1ef5-4c47-a0e2-fc4acc2da3e1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://192.168.105.150</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+       "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": "201-12345-123"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - OL only" mediaType="application/json" postQueryString="false" id="cc8a7197-9da9-4d7f-976a-e80d339fd441"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://192.168.105.150</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - IK only" mediaType="application/json" postQueryString="false" id="4b969885-9e27-408e-9bd4-f828f9dde02f"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest": null,
+      "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": "201-12345-123"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Invalid JSON" mediaType="application/json" postQueryString="false" id="c0be24af-da07-4cd9-bb14-8adae963efa5"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest" {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": "201-12345-123"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Missing ProductTypeID" mediaType="application/json" postQueryString="false" id="e8686214-c36f-416e-84cd-68c03ea7b045"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": "201-12345-123"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Missing ProductID" mediaType="application/json" postQueryString="false" id="ff9111e3-95ad-4040-b6fd-cac269ec84c4"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": null}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Missing TransactionID" mediaType="application/json" postQueryString="false" id="86dd85e8-0f10-4645-81db-6a979aceb3b2"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": "201-12345-123"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Missing CorrelationID" mediaType="application/json" postQueryString="false" id="53f3a070-eae9-4408-8cbc-e9e5899393c2"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": "201-12345-123"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Missing ThirdPartyRequest" mediaType="application/json" postQueryString="false" id="0373e57d-7f31-45f3-9acf-f0a7e303963d"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": "201-12345-123"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Missing StoreID" mediaType="application/json" postQueryString="false" id="34147afb-ec2e-4e1f-87f8-f48ff78560c6"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": "201-12345-123"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Missing PosID" mediaType="application/json" postQueryString="false" id="e572c968-ef93-477f-834f-399589e8ef40"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": "201-12345-123"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Missing ThirdPartyID" mediaType="application/json" postQueryString="false" id="5845646e-a7e3-4e04-86d1-9e9564364698"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "008",
+      "TerminalType": "Normal"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": "201-12345-123"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Missing TerminalType" mediaType="application/json" postQueryString="false" id="23bacfd1-e5f8-4e91-bcac-9dc86da9b04e"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "008",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": "201-12345-123"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Missing DocumentToken" mediaType="application/json" postQueryString="false" id="abb1ba52-8f32-43fb-a506-2b5d6930b79a"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Missing SecureDocumentToken" mediaType="application/json" postQueryString="false" id="43246d1d-bd14-4245-92ca-0919b25696fd"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Wager failed" mediaType="application/json" postQueryString="false" id="89a1b686-c642-45c7-88d3-63cb97d2af52"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "908",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+                  {
+            "ProductTypeID": "9421001444425",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B"
+         },
+                  {
+            "ProductTypeID": "9421001444432",
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090"
+         }
+      ],
+      "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": "201-12345-123"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - Missing wagers" mediaType="application/json" postQueryString="false" id="41f3957f-0393-46d2-a704-fdaa0acaabe5"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":   null,
+      "CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $6 Basic Lucky Dip" mediaType="application/json" postQueryString="false" id="a5239add-7b39-4afa-a30c-9d3edfd50bf1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://192.168.105.150</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "111111",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444500"
+         }
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $9 Super Lucky Dip" mediaType="application/json" postQueryString="false" id="788b2eec-ddc5-45a3-98d2-9fb6ec1cf659"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444517"
+         },
+      ],
+      "CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $12 Mega Lucky Dip" mediaType="application/json" postQueryString="false" id="cff11aab-bc18-44ec-8427-55c160465c56"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444524"
+         },
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $14 Basic Triple Dip" mediaType="application/json" postQueryString="false" id="27195157-a473-4e3c-a764-034428a735f7"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://192.168.105.150</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444449"
+         }
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $16 Super Triple Dip" mediaType="application/json" postQueryString="false" id="890dc10f-124c-4510-954e-4bfc00d8fd58"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://192.168.105.150</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444456"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $20 Super Plus Triple Dip" mediaType="application/json" postQueryString="false" id="7b59c855-7c60-42fc-9bef-2199bd80a603"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444463"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $12 Basic Power Dip" mediaType="application/json" postQueryString="false" id="befb1ea3-f1e9-4123-bb7b-2449ceedef8b"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444418"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $18 Super Power Dip" mediaType="application/json" postQueryString="false" id="1e1a4ff0-0bf1-4517-9a81-332697f01057"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://192.168.105.150</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444425"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $24 Mega Power Dip" mediaType="application/json" postQueryString="false" id="8123ec3f-5cec-48d0-b9a6-0ccdb1f7164a"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://192.168.105.150</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444432"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $6 Basic BigW Head or Tails" mediaType="application/json" postQueryString="false" id="7638d0c8-5c28-41a0-aaa3-125a2e8cbd52"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444685"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $8 Super BigW Head or Tails" mediaType="application/json" postQueryString="false" id="735d5535-83c3-406c-8a62-25e992d72c57"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444692"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $10 Mega BigW Head or Tails" mediaType="application/json" postQueryString="false" id="15dc1932-5876-44ba-8381-347f5dd30187"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444708"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $12 Basic BigW Head and Tails" mediaType="application/json" postQueryString="false" id="6c311e91-f426-40b2-8c0f-990775628220"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444470"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $16 Super BigW Head and Tails" mediaType="application/json" postQueryString="false" id="9a5a7d5a-ad33-4d5b-88cb-5f0b83f364ac"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444487"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $20 Mega BigW Head and Tails" mediaType="application/json" postQueryString="false" id="de0d675a-eff2-46a9-a396-f4b9812f8631"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444494"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $7 Keno 7 draws" mediaType="application/json" postQueryString="false" id="f44bd868-ef2b-45ac-a826-7fdba829b38d"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444555"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $14 Keno 14 draws" mediaType="application/json" postQueryString="false" id="976f3dc0-ad22-4855-977b-f4c669337297"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444562"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $2 Bullseye 1 draw" mediaType="application/json" postQueryString="false" id="0ea7e457-fcab-4f43-b13f-ac1ee8d75f33"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444661"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $10 Bullseye 7 draws" mediaType="application/json" postQueryString="false" id="083b8b24-d7ec-4b9f-9783-7592dbd23a0b"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444661"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $2 Play 3 Exact &amp; Any" mediaType="application/json" postQueryString="false" id="d04dbadf-140e-4c92-a192-750dbfd61715"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444609"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $3 Play 3 Exact, Any &amp; Pairs" mediaType="application/json" postQueryString="false" id="1958f12a-7e69-4725-92d5-5ab307f4bf79"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444630"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - All IK (not complete)" mediaType="application/json" postQueryString="false" id="e866027b-dc2a-4114-9cee-e111cb4681ca"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "9248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "94280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest": null,
+      "CreateInstantProductRequest":       [
+         {"ProductID": "441-19269-016"},
+         {"ProductID": "201-12345-123"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreateWagerRequest - $26 Mega Triple Dip" mediaType="application/json" postQueryString="false" id="6535e3ba-ecd7-4f75-987b-cf32dcc1ea40"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CreateWagerRequest": {
+   "ThirdPartyRequest":    {
+   	"StoreID": "009248",
+      "PosID": "008",
+      "TerminalType": "Normal",
+      "ThirdPartyID": "ZEL"
+   },
+   "CreateProductRequests":    {
+      "TransactionID": "0094280053797140927064549000",
+      "CorrelationID": "9428005379720140927",
+      "CreateOnlineProductRequest":       [
+                  {
+            "DocumentToken": "6F29A550FFB944C3C9D4183565512E0B",
+            "SecureDocumentToken": "64DAA129E0444653BC449287D064D090",
+            "ProductTypeID": "9421001444531"
+         },
+
+      ],
+	"CreateInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/wager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="cancelwager" path="/api/wagerservice/1.0/cancelwager" id="9a1c3f61-4618-4fa0-ab9a-525e0c0a2868"><con:settings/><con:parameters/><con:method name="cancelwager" method="POST" id="17818213-6a6e-4100-ad40-c7682b3c0499"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:can="http://Ferdinands-iMac.local/wagerservice/1.0/cancelwager">can:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/><con:element xmlns:can="http://Ferdinands-iMac.local/wagerservice/1.0/cancelwager">can:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/xml</con:mediaType><con:params/></con:representation><con:request name="CancelWagerRequest - OL &amp; IK" mediaType="application/json" postQueryString="false" id="ec8da7c9-f7e1-4b43-a086-5e9ef507ba6e"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CancelWagerRequest": {
+   "ThirdPartyRequest":    {
+      "StoreID": "9428",
+      "PosID": "005",
+      "ThirdPartyID": "ZEL",
+      "TerminalType": "Normal"
+   },
+   "CancelProductRequests":    {
+      "TransactionID": "94280053797140927064536002",
+      "CancelOnlineProductRequest": [{"InternalTransactionID": "ZEL9428005379714092706452200101O"}],
+      "CancelInstantProductRequest": [      {
+         "InternalTransactionID": "ZEL9428005379714092706452200103I",
+         "ProductID": "441-29682-027"
+      }]
+   }
+}}</con:request><con:originalUri>http://Ferdinands-iMac.local/wagerservice/1.0/cancelwager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CancelWagerRequest - OL only" mediaType="application/json" postQueryString="false" id="0deceeea-0a12-47c8-ad54-d72801e4423b"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CancelWagerRequest": {
+   "ThirdPartyRequest":    {
+      "StoreID": "9428",
+      "PosID": "005",
+      "ThirdPartyID": "ZEL",
+      "TerminalType": "Normal"
+   },
+   "CancelProductRequests":    {
+      "TransactionID": "94280053797140927064536002",
+      "CancelOnlineProductRequest": [{"InternalTransactionID": "ZEL9428005379714092706452200101O"}],
+      "CancelInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://Ferdinands-iMac.local/wagerservice/1.0/cancelwager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CancelWagerRequest - IK only" mediaType="application/json" postQueryString="false" id="ac7f85b1-4218-4698-ad87-1a4e42eb6cda"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CancelWagerRequest": {
+   "ThirdPartyRequest":    {
+      "StoreID": "9428",
+      "PosID": "005",
+      "ThirdPartyID": "ZEL",
+      "TerminalType": "Normal"
+   },
+   "CancelProductRequests":    {
+      "TransactionID": "94280053797140927064536002",
+      "CancelOnlineProductRequest": null,
+      "CancelInstantProductRequest": [      {
+         "InternalTransactionID": "ZEL9428005379714092706452200103I",
+         "ProductID": "441-29682-027"
+      }]
+   }
+}}</con:request><con:originalUri>http://Ferdinands-iMac.local/wagerservice/1.0/cancelwager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CancelWagerRequest - Invalid JSON" mediaType="application/json" postQueryString="false" id="9dbc8027-e2f7-4e2f-aa94-6c305f5a4ad2"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CancelWagerRequest": {
+   "ThirdPartyRequest":    {
+      "StoreID": "9428",
+      "PosID": "005",
+      "ThirdPartyID": "ZEL",
+      "TerminalType": "Normal"
+   },
+   "CancelProductRequests"    {
+      "TransactionID": "94280053797140927064536002",
+      "CancelOnlineProductRequest": [{"InternalTransactionID": "ZEL9428005379714092706452200101O"}],
+      "CancelInstantProductRequest": [      {
+         "InternalTransactionID": "ZEL9428005379714092706452200103I",
+         "ProductID": "441-29682-027"
+      }]
+   }
+}}</con:request><con:originalUri>http://Ferdinands-iMac.local/wagerservice/1.0/cancelwager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CancelWagerRequest - Missing wager cancellation" mediaType="application/json" postQueryString="false" id="f772ebe6-56ae-40df-b9d1-5e7fcca66d6b"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CancelWagerRequest": {
+   "ThirdPartyRequest":    {
+      "StoreID": "9428",
+      "PosID": "005",
+      "ThirdPartyID": "ZEL",
+      "TerminalType": "Normal"
+   },
+   "CancelProductRequests":    {
+      "TransactionID": "94280053797140927064536002",
+      "CancelOnlineProductRequest": null,
+      "CancelInstantProductRequest": null
+   }
+}}</con:request><con:originalUri>http://Ferdinands-iMac.local/wagerservice/1.0/cancelwager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CancelWagerRequest - Cancel failed" mediaType="application/json" postQueryString="false" id="9bef8758-2f6b-409e-b035-49b87f9116bf"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"CancelWagerRequest": {
+   "ThirdPartyRequest":    {
+      "StoreID": "9428",
+      "PosID": "905",
+      "ThirdPartyID": "ZEL",
+      "TerminalType": "Normal"
+   },
+   "CancelProductRequests":    {
+      "TransactionID": "94280053797140927064536002",
+      "CancelOnlineProductRequest": [ {
+          "InternalTransactionID": "ZEL9428005379714092706452200101O"
+       },
+       {
+          "InternalTransactionID": "ZEL9428005379714092706452200102O"
+       }],
+      "CancelInstantProductRequest": [      {
+         "InternalTransactionID": "ZEL9428005379714092706452200103I",
+         "ProductID": "441-29682-027"
+      }]
+   }
+}}</con:request><con:originalUri>http://Ferdinands-iMac.local/wagerservice/1.0/cancelwager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="piaquery" path="/api/wagerservice/1.0/piaquery" id="78554d1e-1700-4d84-8cb7-04b1149544ef"><con:settings/><con:parameters/><con:method name="piaquery" method="POST" id="0692dd12-2d29-4743-bd47-919e3ad0fe31"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>text/html; charset=iso-8859-1</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:piaq="http://localhost/wagerservice/1.0/piaquery">piaq:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>400 500</con:status><con:params/><con:element xmlns:piaq="http://localhost/wagerservice/1.0/piaquery">piaq:Fault</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="InquirePIARequest" mediaType="application/json" postQueryString="false" id="f7e899d2-7531-405c-ba86-d1d5cd546207"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://esapi3.cat.mylotto.co.nz</con:endpoint><con:request>{"InquirePIARequest": {
+   "ThirdPartyRequest":    {
+      "ThirdPartyID": "ZEL",
+      "StoreID": "9248",
+      "PosID": "005",
+      "TerminalType": "Normal"
+   },
+   "InquirePIAProductRequests":    {
+      "TransactionID": "94280053797140927064549003",
+      "InquirePIAOnlineProductRequest":       [
+
+         {"SerialNumber": " 4450364741171333"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/piaquery</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="InquirePIARequest - Invalid JSON" mediaType="application/json" postQueryString="false" id="04b00ff8-c999-460b-985c-621689718ed7"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"InquirePIARequest": {
+   "ThirdPartyRequest":    {
+      "ThirdPartyID": "ZEL",
+      "StoreID": "9248",
+      "PosID": "005",
+      "TerminalType": "Normal"
+   },
+   "InquirePIAProductRequests"    {
+      "TransactionID": "94280053797140927064549003",
+      "InquirePIAOnlineProductRequest":       [
+         {"SerialNumber": " 3160173665282027"},
+         {"SerialNumber": " 3090059599372573"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/piaquery</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="InquirePIARequest - Missing PIAOnlineProductRequest" mediaType="application/json" postQueryString="false" id="73fa1f04-8f24-4d02-97f0-5dc67ede212e"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"InquirePIARequest": {
+   "ThirdPartyRequest":    {
+      "PosID": "005",
+      "ThirdPartyID": "ZEL",
+      "StoreID": "9248",
+      "TerminalType": "Normal"
+   },
+   "InquirePIAProductRequests":    {
+      "TransactionID": "94280053797140927064549003"
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/piaquery</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="InquirePIARequest - Inquiry failed" mediaType="application/json" postQueryString="false" id="fe234d0d-bb60-4ca5-b19f-83de7ffe8abc"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{"InquirePIARequest": {
+   "ThirdPartyRequest":    {
+      "ThirdPartyID": "ZEL",
+      "StoreID": "9248",
+      "PosID": "905",
+      "TerminalType": "Normal"
+   },
+   "InquirePIAProductRequests":    {
+      "TransactionID": "94280053797140927064549003",
+      "InquirePIAOnlineProductRequest":       [
+         {"SerialNumber": " 3160173665282027"},
+         {"SerialNumber": " 3090059599372573"}
+      ]
+   }
+}}</con:request><con:originalUri>http://localhost/wagerservice/1.0/piaquery</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="piawager" path="/api/wagerservice/1.0/piawager" id="b4b49741-bacb-42ac-a6c7-cd0ed8c9252a"><con:settings/><con:parameters/><con:method name="piawager" method="POST" id="fe09234b-05f6-49fc-8088-05872a323950"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/><con:element xmlns:piaw="http://Ferdinands-iMac.local/wagerservice/1.0/piawager">piaw:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>text/html; charset=iso-8859-1</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:request name="CreatePIAWagerRequest" mediaType="application/json" postQueryString="false" id="36b961bb-91a0-4f0a-a8dd-9ec6091092d2"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{
+  "CreatePIAWagerRequest": {
+    "ThirdPartyRequest": {
+      "ThirdPartyID": "ZEL",
+      "StoreID": "9428",
+      "PosID": "005",
+      "TerminalType": "Normal"
+    },
+    "CreatePIAProductRequests": {
+      "TransactionID":
+        "94280053797140927064549003",
+      "CorrelationID": "9428005379720140927",
+      "CreatePIAOnlineProductRequest": [
+        {
+          "SerialNumber": "3160173665282027",
+          "DocumentToken":
+            "6F29A550FFB944C3C9D4183565512E0B",
+          "SecureDocumentToken":
+            "64DAA129E0444653BC449287D064D090"
+        }
+      ]
+    }
+  }
+}
+</con:request><con:originalUri>http://Ferdinands-iMac.local/wagerservice/1.0/piawager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreatePIAWagerRequest - Invalid JSON" mediaType="application/json" postQueryString="false" id="9a92ed06-e6ba-4458-ab1c-649fffb4802e"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{
+  "CreatePIAWagerRequest": {
+    "ThirdPartyRequest": {
+      "ThirdPartyID": "ZEL",
+      "StoreID": "9428",
+      "PosID": "005",
+      "TerminalType": "Normal"
+    },
+    "CreatePIAProductRequests" {
+      "TransactionID":
+        "94280053797140927064549003",
+      "CorrelationID": "9428005379720140927",
+      "CreatePIAOnlineProductRequest": [
+        {
+          "SerialNumber": "3160173665282027",
+          "DocumentToken":
+            "6F29A550FFB944C3C9D4183565512E0B",
+          "SecureDocumentToken":
+            "64DAA129E0444653BC449287D064D090"
+        }
+      ]
+    }
+  }
+}
+</con:request><con:originalUri>http://Ferdinands-iMac.local/wagerservice/1.0/piawager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreatePIAWagerRequest - Missing SerialNumber" mediaType="application/json" postQueryString="false" id="212624de-5300-489b-8e89-e78d21c4f304"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{
+  "CreatePIAWagerRequest": {
+    "ThirdPartyRequest": {
+      "ThirdPartyID": "ZEL",
+      "StoreID": "9428",
+      "PosID": "005",
+      "TerminalType": "Normal"
+    },
+    "CreatePIAProductRequests": {
+      "TransactionID":
+        "94280053797140927064549003",
+      "CorrelationID": "9428005379720140927",
+      "CreatePIAOnlineProductRequest": [
+        {
+          "DocumentToken":
+            "6F29A550FFB944C3C9D4183565512E0B",
+          "SecureDocumentToken":
+            "64DAA129E0444653BC449287D064D090"
+        }
+      ]
+    }
+  }
+}
+</con:request><con:originalUri>http://Ferdinands-iMac.local/wagerservice/1.0/piawager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreatePIAWagerRequest - Missing DocumentToken" mediaType="application/json" postQueryString="false" id="f81f01b9-afb2-4b95-a37e-6f5f6703fe12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{
+  "CreatePIAWagerRequest": {
+    "ThirdPartyRequest": {
+      "ThirdPartyID": "ZEL",
+      "StoreID": "9428",
+      "PosID": "005",
+      "TerminalType": "Normal"
+    },
+    "CreatePIAProductRequests": {
+      "TransactionID":
+        "94280053797140927064549003",
+      "CorrelationID": "9428005379720140927",
+      "CreatePIAOnlineProductRequest": [
+        {
+          "SerialNumber": "3160173665282027",
+          "SecureDocumentToken":
+            "64DAA129E0444653BC449287D064D090"
+        }
+      ]
+    }
+  }
+}
+</con:request><con:originalUri>http://Ferdinands-iMac.local/wagerservice/1.0/piawager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreatePIAWagerRequest - Missing SecureDocumentToken" mediaType="application/json" postQueryString="false" id="bcccde06-b526-4873-b8a4-d3239be0fbc7"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{
+  "CreatePIAWagerRequest": {
+    "ThirdPartyRequest": {
+      "ThirdPartyID": "ZEL",
+      "StoreID": "9428",
+      "PosID": "005",
+      "TerminalType": "Normal"
+    },
+    "CreatePIAProductRequests": {
+      "TransactionID":
+        "94280053797140927064549003",
+      "CorrelationID": "9428005379720140927",
+      "CreatePIAOnlineProductRequest": [
+        {
+          "SerialNumber": "3160173665282027",
+          "DocumentToken":
+            "6F29A550FFB944C3C9D4183565512E0B"
+        }
+      ]
+    }
+  }
+}
+</con:request><con:originalUri>http://Ferdinands-iMac.local/wagerservice/1.0/piawager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="CreatePIAWagerRequest - Wager failed" mediaType="application/json" postQueryString="false" id="13a2ad16-f5f7-45de-b1c3-364fd6afd230"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request>{
+  "CreatePIAWagerRequest": {
+    "ThirdPartyRequest": {
+      "ThirdPartyID": "ZEL",
+      "StoreID": "9428",
+      "PosID": "905",
+      "TerminalType": "Normal"
+    },
+    "CreatePIAProductRequests": {
+      "TransactionID":
+        "94280053797140927064549003",
+      "CorrelationID": "9428005379720140927",
+      "CreatePIAOnlineProductRequest": [
+        {
+          "SerialNumber": "3160173665282027",
+          "DocumentToken":
+            "6F29A550FFB944C3C9D4183565512E0B",
+          "SecureDocumentToken":
+            "64DAA129E0444653BC449287D064D090"
+        },
+        {
+          "SerialNumber": "3160570921272049",
+          "DocumentToken":
+            "6F29A550FFB944C3C9D4183565512E0B",
+          "SecureDocumentToken":
+            "64DAA129E0444653BC449287D064D090"
+        }
+      ]
+    }
+  }
+}
+</con:request><con:originalUri>http://Ferdinands-iMac.local/wagerservice/1.0/piawager</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite name="Script Library" id="bac77088-326c-44b1-92e0-e046646251f2"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Data Source and Data Loop" searchProperties="true" id="87db2bd5-64a8-4864-8ca0-7c0e7702dcd8"><con:settings/><con:testStep type="groovy" name="data driver" id="2a4f05f4-7024-4c76-8ccb-96e0f7c4b986"><con:settings/><con:config><script>import com.eviware.soapui.support.XmlHolder 
+import jxl.* 
+import jxl.write.*
+// DECLARE THE VARIABLES
+ 
+def myTestCase = context.testCase //myTestCase contains the test case
+ 
+def counter,next,previous,size //Variables used to handle the loop and to move inside the file
+
+//JXL library doesnot support .csv and .xslx formats, which is the format used by Excel-2010. hence, use Excel 97-2003 which is .xsl foramatted and is supported by JXL library. or else if you want to use excel-2010, use APACHE POI(XSSFWorkbooks) instead of JXL. For using .csv format, google for CSVReader libraries.
+Workbook workbook1 = Workbook.getWorkbook(new File("C:/Data/UserData.xls")) //file containing the data
+ 
+Sheet sheet1 = workbook1.getSheet(0) //save the first sheet in sheet1
+ 
+size= sheet1.getRows().toInteger() //get the number of rows, each row is a data set
+
+propTestStep = myTestCase.getTestStepByName("Property – Looper") // get the Property TestStep
+//Set the total number of data in data file to '${Property – Looper#Total}'
+propTestStep.setPropertyValue("Total", size.toString())
+
+//Get the count from "Property – Looper", which means the current data line number.
+counter = propTestStep.getPropertyValue("Count").toString()
+counter= counter.toInteger()
+ 
+//set the next value
+next = (counter > size-2? 0: counter+1)
+// OBTAINING THE DATA YOU NEED
+ 
+Cell u = sheet1.getCell(0,counter) // getCell(column,row) //obtains user
+ 
+Cell p = sheet1.getCell(1,counter) // obtains password
+ 
+workbook1.close() //close the file
+
+usr = u.getContents()
+ 
+pass = p.getContents()
+ 
+propTestStep.setPropertyValue("user", usr) //the value is saved in the property
+ 
+propTestStep.setPropertyValue("pass", pass) //the value is saved in the property
+ 
+propTestStep.setPropertyValue("Count", next.toString()) //increase Count value
+ 
+next++ //increase next value
+ 
+propTestStep.setPropertyValue("Next", next.toString()) //set Next value on the properties step
+ 
+//Decide if the test has to be run again or not
+ 
+if (counter == size-1)
+ 
+{
+ 
+propTestStep.setPropertyValue("StopLoop", "T")
+ 
+log.info "Setting the stoploop property now..."
+ 
+}
+ 
+else if (counter==0)
+ 
+{
+ 
+def runner = new com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner(testRunner.testCase, null)
+ 
+propTestStep.setPropertyValue("StopLoop", "F")
+ 
+}
+ 
+else
+ 
+{
+ 
+propTestStep.setPropertyValue("StopLoop", "F")
+ 
+}</script></con:config></con:testStep><con:testStep type="properties" name="Property – Looper" id="d3529678-8564-4e2a-9284-c517352a352a"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>user</con:name><con:value>Username6</con:value></con:property><con:property><con:name>pass</con:name><con:value>Password6</con:value></con:property><con:property><con:name>Total</con:name><con:value>6</con:value></con:property><con:property><con:name>Count</con:name><con:value>0</con:value></con:property><con:property><con:name>Next</con:name><con:value>1</con:value></con:property><con:property><con:name>StopLoop</con:name><con:value>T</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="loop" id="75678ea6-1b80-468d-b2c9-cec12bb68eee"><con:settings/><con:config><script>def myTestCase = context.testCase
+ 
+def runner
+ 
+propTestStep = myTestCase.getTestStepByName("Property – Looper") // get the Property TestStep
+ 
+endLoop = propTestStep.getPropertyValue("StopLoop").toString()
+
+log.info propTestStep.getPropertyValue("user").toString()
+log.info propTestStep.getPropertyValue("pass").toString()
+
+if (endLoop.toString() == "T" || endLoop.toString()=="True" || endLoop.toString()=="true")
+ 
+{
+ 
+log.info ("Exit Groovy Data Source Looper")
+ 
+assert true
+ 
+}
+ 
+else
+ 
+{
+ 
+testRunner.gotoStepByName("data driver") //setStartStep
+ 
+}</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TXT Data Source and Data Loop" searchProperties="true" id="a29cdf1a-3a84-4c8d-965e-6b0ac2a2b896"><con:settings/><con:testStep type="groovy" name="Groovy Script – DataSource" id="778bd0a7-3f98-4785-8ffc-c0f4d85ff502"><con:settings/><con:config><script>import com.eviware.soapui.support.XmlHolder
+def myTestCase = context.testCase
+def counter,next,previous,size
+
+File tickerEnumFile = new File("C:/Data/InputData.txt") //make sure input.txt file already exists and contains different set of values sepearted by new line (CR).
+//Read data from data file, import them into List
+List lines = tickerEnumFile.readLines()
+size = lines.size.toInteger()
+
+propTestStep = myTestCase.getTestStepByName("Property – Looper") // get the Property TestStep
+//Set the total number of data in data file to '${Property – Looper#Total}'
+propTestStep.setPropertyValue("Total", size.toString())
+
+//Get the count from "Property – Looper", which means the current data line number.
+counter = propTestStep.getPropertyValue("Count").toString()
+counter= counter.toInteger()
+
+//if count is the second last line, set 'next' as 0. Otherwise, set is as count+1
+next = (counter > size-2? 0: counter+1)
+
+//read specific no. 'counter' line data from 'List'
+tempValue = lines[counter]
+propTestStep.setPropertyValue("Value", tempValue)
+
+//After read the no. 'counter' line data, set 'Count' as 'counter'+1
+propTestStep.setPropertyValue("Count", next.toString())
+
+//plus 1 for 'next' no
+next++
+log.info "Reading line : ${(counter+1)} / $lines.size"
+
+propTestStep.setPropertyValue("Next", next.toString())
+log.info "Value '$tempValue' -- updated in $propTestStep.name"
+
+if (counter == size-1)
+{
+	propTestStep.setPropertyValue("StopLoop", "T")
+	log.info "Setting the stoploop property now..."
+}
+else if (counter==0)
+{
+	def runner = new com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner(testRunner.testCase, null)
+	propTestStep.setPropertyValue("StopLoop", "F")
+}
+else
+{
+	propTestStep.setPropertyValue("StopLoop", "F")
+}</script></con:config></con:testStep><con:testStep type="properties" name="Property – Looper" id="6ad126db-d618-4add-bdbb-6cc9fbbeddcd"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Total</con:name><con:value>5</con:value></con:property><con:property><con:name>Value</con:name><con:value>test5</con:value></con:property><con:property><con:name>Count</con:name><con:value>0</con:value></con:property><con:property><con:name>Next</con:name><con:value>1</con:value></con:property><con:property><con:name>StopLoop</con:name><con:value>T</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script – Data Loop" id="2b549d03-143e-41eb-96f7-5463829a054b"><con:settings/><con:config><script>/*&lt;/pre>
+@Author : Pradeep Bishnoi
+@Description : Data Source Looper responsible for looping a specific teststep.
+@GroovyTestStepName : "Groovy Script - Data Loop"
+*/
+def myTestCase = context.testCase
+ 
+def runner
+propTestStep = myTestCase.getTestStepByName("Property – Looper") // get the Property TestStep
+endLoop = propTestStep.getPropertyValue("StopLoop").toString()
+log.info endLoop.toString()
+if (endLoop.toString() == "T" || endLoop.toString()=="True" || endLoop.toString()=="true")
+{
+ log.info ("Exit Groovy Data Source Looper")
+ assert true
+}
+else
+{
+ testRunner.gotoStepByName("Groovy Script – DataSource") //setStartStep
+}</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Reporting" searchProperties="true" id="744d074e-7299-4248-9d2d-95b0f6b6ed97"><con:settings/><con:testStep type="groovy" name="TestCaseResultsCSVReport" id="30af16b7-464e-4ec3-8430-7bd6dd7429d5"><con:settings/><con:config><script>try {
+	def currentDate = new Date().format("yyyy-MM-dd hh:mm:ss");
+	def currentStep = context.getCurrentStep();
+	def currentTestCase = currentStep.testCase;
+	def currentTestSuite = currentTestCase.testSuite;
+	def currentProject = currentTestSuite.project;
+
+	//Project Info
+	//get project name
+	def ProjectName =  currentProject.name	
+	//get Interface Count
+	def ProjectInterfaceCount =  currentProject.getInterfaceCount()	
+	//get TestSuite Count
+	def ProjectTestSuiteCount =  currentProject.getTestSuiteCount()	
+	//get MockService Count
+	def ProjectMockServiceCount =  currentProject.getMockServiceCount()	
+	//get RestMockService Count
+	def ProjectRestMockServiceCount =  currentProject.getRestMockServiceCount()	
+	// get status of project
+	def ProjectStatus =  currentProject.isOpen()	
+	// get path of project
+	def ProjectPath =  currentProject.getPath()	
+	//get ResourceRoot of project
+	def ProjectResourceRoot =  currentProject.getResourceRoot()
+
+    def finalResult = "";
+    	//Check a project level property to see if the reports should be produced.
+    	if(context.expand('${#Project#ProduceReports}') == 'true') 
+    	{
+        	//The path and file to persist results
+		def resultDir = new File("C:\\Users\\user\\Temp\\SoapUIResults");
+		if(!resultDir.exists()) 
+		{
+          	resultDir.mkdirs();
+        	}
+        	//def resultsFile = new File(resultDir, "CSVReport.csv");
+        	def resultsFile = new File(resultDir, "testResultsReport.csv");
+		//def resultsFile = new File(resultDir, "testResultsReport"+currentDate+".csv");
+        	
+        	//If the file does not already exist, we want to create it, otherwise we want to append
+        if(!resultsFile.exists()) 
+        {
+        		resultsFile.createNewFile();
+            	//Project Info
+            	resultsFile.write('"Project Name:","' + ProjectName + '",\n');
+        		resultsFile.append('"Project Interface Count:","' + ProjectInterfaceCount + '",\n');
+        		resultsFile.append('"Project Test Suite Count:","' + ProjectTestSuiteCount + '",\n');
+        		resultsFile.append('"Test Running Time:","' + currentDate + '",\n');
+        		resultsFile.append('\n');    //Newline
+            	//Header values
+            	resultsFile.append('"NAME","RESULT","MESSAGES","DATE"');
+        }
+
+        //Write the result values
+        resultsFile.append('\n');    //Newline
+        resultsFile.append('"Test Case Name: ' + testRunner.testCase.name + '",');    //Test Case Name
+        resultsFile.append('"Test Case Result: ' + testRunner.status + '",');    //Overall Test Case result
+
+        //There can be multiple messages, so set up a loop
+        resultsFile.append('"');    //Start of messages.
+        for(result in testRunner.getResults()) {
+        		def stepName = result.testStep.label
+        		def stepResult = result.getStatus()
+        		resultsFile.append('\n');    //Newline
+        		resultsFile.append('"Test Step Name: ' + stepName + '",\n'); 
+        		resultsFile.append('"Test Step Result: ' + stepResult + '",\n');
+
+        		if ( result.getStatus().toString() == 'FAILED' ){
+        			finalResult = "FAIL";
+        		}else{
+        			finalResult = "PASS";
+        		}
+            //There can be lots of messages, so limit amount recorded to avoid going over
+            //the buffer size for a CSV field
+            msgCount = 0;
+            for(message in result.getMessages()) {
+                
+                resultsFile.append('Msg'+ msgCount +": "+ message + ';\n');
+                msgCount++;
+               
+            }
+        }
+
+        resultsFile.append('",\n');    //End of messages.
+        resultsFile.append(currentDate + ': Test Case END!\n');
+        resultsFile.append('"Test Result: ' + finalResult + '",\n');
+    }
+} catch(e) {
+    log.error("An error occurred: " + e.toString());
+}</script></con:config></con:testStep><con:testStep type="groovy" name="TestCaseResultsLog" id="bb0badcf-7275-4a37-8fa4-119d747eaaef"><con:settings/><con:config><script>try {
+	def currentDate = new Date().format("yyyy-MM-dd hh:mm:ss");
+    
+    //Check a project level property to see if the reports should be produced.
+    if(context.expand('${#Project#ProduceReports}') == 'true') 
+    {
+        //The path and file to persist results
+		def resultDir = new File("C:\\Users\\user\\Temp\\SoapUIResults");
+		if(!resultDir.exists()) 
+		{
+          	resultDir.mkdirs();
+        	}
+        	//def resultsFile = new File(resultDir, "CSVReport.csv");
+		def resultsFile = new File(resultDir, "testResultsReport.txt");
+        
+        	//If the file does not already exist, we want to create it, otherwise we want to append
+        if(!resultsFile.exists()) {
+            resultsFile.createNewFile();
+            //Header values
+            resultsFile.write('"NAME","RESULT","MESSAGES","DATE"');
+        }
+
+        //Write the result values
+        resultsFile.append('\n');    //Newline
+        resultsFile.append('"Test Case Name: ' + testRunner.testCase.name + '",');    //Test Case Name
+        resultsFile.append('"Test Case Result: ' + testRunner.status + '",');    //Overall Test Case result
+
+        //There can be multiple messages, so set up a loop
+        resultsFile.append('"');    //Start of messages.
+        for(result in testRunner.getResults()) {
+        		def stepName = result.testStep.label
+        		//def stepResult = result.status 
+        		def stepResult = result.getStatus()
+        		resultsFile.append('\n');    //Newline
+        		resultsFile.append('"Test Step Name: ' + stepName + '",\n'); 
+        		resultsFile.append('"Test Step Result: ' + stepResult + '",\n');
+            //There can be lots of messages, so limit amount recorded to avoid going over
+            //the buffer size for a CSV field
+            msgCount = 0;
+            for(message in result.getMessages()) {
+                
+                resultsFile.append('Msg'+ msgCount +": "+ message + ';\n');
+                msgCount++;
+               
+            }
+        }
+
+        resultsFile.append('",');    //End of messages.
+        resultsFile.append(currentDate + ': Test Case END!');
+    }
+} catch(e) {
+    log.error("An error occurred: " + e.toString());
+}</script></con:config></con:testStep><con:testStep type="groovy" name="TestCaseResultsLog TearDown" id="5f5f350e-b1bf-411e-8f72-d2742cf66314"><con:settings/><con:config><script>testRunner.testCase.testSuite.project.testSuites["Script Library"].testCases["Reporting"].testSteps["TestCaseResultsCSVReport"].run(testRunner, context);
+testRunner.testCase.testSuite.project.testSuites["Script Library"].testCases["Reporting"].testSteps["TestCaseResultsLog"].run(testRunner, context);</script></con:config></con:testStep><con:testStep type="groovy" name="Populate TestCase TearDown Script" id="e6625bc8-073a-46f9-a75f-6e4d975832d0"><con:settings/><con:config><script>try {
+    def tearDown = testRunner.testCase.testSteps["TestCaseResultsLog TearDown"].getScript();
+
+    def project = testRunner.testCase.testSuite.project;
+
+    //Loop through each Test Suite
+    for(suite in project.getTestSuiteList()) 
+    {
+        //Do not want to add script to test cases in Scripts Suite.
+        if(!suite.name.startsWith("Script Library")) 
+        {
+            //Loop through each Test Case
+            for(tcase in suite.getTestCaseList()) 
+            {
+                tcase.setTearDownScript(tearDown);
+            }
+        }
+    }
+} catch(e) {
+    log.error(e.toString());
+}</script></con:config></con:testStep><con:testStep type="groovy" name="PreTestCaseResultsLog" id="31a752db-620c-4810-8be7-6bfb4c323256"><con:settings/><con:config><script>try {
+	def currentDate = new Date().format("yyyy-MM-dd hh:mm:ss");
+    
+    //Check a project level property to see if the reports should be produced.
+    if(context.expand('${#Project#ProduceReports}') == 'true') 
+    {
+        //The path and file to persist results
+		def resultDir = new File("C:\\Users\\user\\Temp\\SoapUIResults");
+		if(!resultDir.exists()) 
+		{
+          	resultDir.mkdirs();
+        	}
+        	//def resultsFile = new File(resultDir, "CSVReport.csv");
+		def resultsFile = new File(resultDir, "testResultsReport.txt");
+  
+
+		def currentStep = context.getCurrentStep();
+		def currentTestCase = currentStep.testCase;
+		def currentTestSuite = currentTestCase.testSuite;
+		def currentProject = currentTestSuite.project;
+		
+        //Write the result values
+        resultsFile.append('\n');
+        resultsFile.append( currentDate +": Start executing step - " + currentProject.getName() +">"+ currentTestSuite.getName() +">"+ currentTestCase.getName() +">"+currentStep.getName());
+        
+    }
+} catch(e) {
+    log.error("An error occurred: " + e.toString());
+}</script></con:config></con:testStep><con:testStep type="groovy" name="PreTestCaseResultsCSVReport" id="98f7dddf-8f76-47ec-addf-2f1c8237b027"><con:settings/><con:config><script/></con:config></con:testStep><con:testStep type="groovy" name="TestCaseResultsLog SetUp" id="21a52586-405c-4478-81de-dafe137a1393"><con:settings/><con:config><script>testRunner.testCase.testSuite.project.testSuites["Script Library"].testCases["Reporting"].testSteps["PreTestCaseResultsLog"].run(testRunner, context);</script></con:config></con:testStep><con:testStep type="groovy" name="Populate TestCase SetUp Script" id="dfe98625-1c7a-4fcd-821b-c6b8c6401aca"><con:settings/><con:config><script>try {
+    def SetUp = testRunner.testCase.testSteps["TestCaseResultsLog SetUp"].getScript();
+
+    def project = testRunner.testCase.testSuite.project;
+
+    //Loop through each Test Suite
+    for(suite in project.getTestSuiteList()) 
+    {
+        //Do not want to add script to test cases in Scripts Suite.
+        if(!suite.name.startsWith("Script Library")) 
+        {
+            //Loop through each Test Case
+            for(tcase in suite.getTestCaseList()) 
+            {
+                tcase.setSetupScript(SetUp);
+            }
+        }
+    }
+} catch(e) {
+    log.error(e.toString());
+}</script></con:config></con:testStep><con:tearDownScript/><con:properties/></con:testCase><con:testCase id="4e2260f5-2610-4e9e-9247-7e01331d50c1" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Generate NZ Bank Account" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Generate NZ Bank Account" id="609a13d2-00ec-42e0-bfa9-91cce6ea9b6e"><con:settings/><con:config><script>context.setProperty("GetAccountNumber", new GetAccountNumber());
+
+class GetAccountNumber{
+
+    
+    def GetBankAccountNumber()
+    {
+    	def BankCodeArr=[1, 2, 3, 6, 8, 11 ];
+    	def ArrLen=BankCodeArr.size();
+    	def index=GetRandomNumber(1,ArrLen);
+    	def bankCode=BankCodeArr.getAt(index-1);
+    	def bankBranch=1000;
+    	def AccountBaseNumber=GetAccountBaseNumber();
+    	def AccountBodyNumber;
+    	AccountBodyNumber=BankAccountAlgorithmB(AccountBaseNumber);
+    	switch (bankCode)
+    	{
+    		case 1:
+			bankBranch=GetRandomNumber(1,999);
+			AccountBodyNumber=BankAccountAlgorithmB(AccountBaseNumber);
+    			break
+    		case 2:
+    			bankBranch=GetRandomNumber(1,999);
+    			break
+    		case 3:
+			bankBranch=GetRandomNumber(1,999);
+    			break
+    		case 6:
+    			bankBranch=GetRandomNumber(1,999);
+    			break
+    		case 8:
+			bankBranch=GetRandomNumber(6500,6599);
+			AccountBodyNumber=BankAccountAlgorithmD(AccountBaseNumber);
+    			break
+    		case 11:
+			bankBranch=GetRandomNumber(5000,6499);
+    			break
+    		default:
+    			bankCode=12;
+    			bankBranch=GetRandomNumber(3000,3299);
+    			break
+    	}
+    	/**/
+    	def bankCodeStr=LeftPaddingZero(bankCode,2);
+    	def bankBranchStr=LeftPaddingZero(bankBranch,4);
+    	def AccountBodyNumberStr=AccountBodyNumber.toString();
+    	def bankSuffix="000";
+    	def bankPrefix=bankCodeStr+bankBranchStr;
+    	def BankAccountNumber = bankPrefix+AccountBodyNumberStr+bankSuffix;
+    	return BankAccountNumber;
+    }
+
+    
+    def GetAccountBaseNumber()
+    {
+    	def AccountBaseNumber=GetRandomNumber(100000,999999);
+    	return AccountBaseNumber
+    }
+
+    def BankAccountAlgorithmB(dig)
+    {
+    	//Sure that the length of AccountBase number is 6
+    	def digStr=dig.toString();
+    	//digStr=LeftPaddingZero(digStr,6)
+    	def len = digStr.size();
+    	def WeightNumberArr=[0, 10, 5, 8, 4, 2, 1 ];
+    	def sum = 0, rem = 0, baseNum = 0, weightNum = 0, USum = 0, checkDig = 0;
+    	def validator;
+
+    	for(int i = 1; i &lt;= len; i++)
+    	{
+    		baseNum = digStr.substring(i-1,i).toInteger();
+    		weightNum = WeightNumberArr.getAt(i-1).toInteger();
+    		USum = baseNum*weightNum;
+    		sum +=USum;
+
+    	}
+    	rem = sum % 11
+    	checkDig=11-rem
+
+    	if(rem==0)
+    	{
+    		validator="0";
+    	}else if(rem==1){
+    		validator="X";
+    	}else{
+    		validator=checkDig.toString();
+    	}
+
+    	return digStr+validator
+    }
+
+    def BankAccountAlgorithmD(dig)
+    {
+    	def digStr=dig.toString();
+    	//digStr=LeftPaddingZero(digStr,6)
+    	def len = digStr.size();
+    	def WeightNumberArr=[7, 6, 5, 4, 3, 2, 1 ];
+    	def sum = 0, rem = 0, baseNum = 0, weightNum = 0, USum = 0, checkDig = 0;
+    	def validator;
+
+    	for(int i = 1; i &lt;= len; i++)
+    	{
+    		baseNum = digStr.substring(i-1,i).toInteger();
+    		weightNum = WeightNumberArr.getAt(i-1).toInteger();
+    		USum = baseNum*weightNum;
+    		sum +=USum;
+
+    	}
+    	rem = sum % 11
+    	checkDig=11-rem
+
+    	if(rem==0)
+    	{
+    		validator="0";
+    	}else if(rem==1){
+    		validator="X";
+    	}else{
+    		validator=checkDig.toString();
+    	}
+
+    	return digStr+validator
+    }
+    def GetRandomNumber(min,max)
+    {
+    	 def n=Math.abs(new Random().nextInt() % (max-min)) + min;
+    	 return n;
+    }
+	
+    def LeftPaddingZero(value,length)
+    {
+    	def valueStr=value.toString();
+    	def res=valueStr.padLeft(length, '0');
+    	return res;
+    }
+}
+
+def bankAccount=context.GetAccountNumber.GetBankAccountNumber();
+//log.info bankAccount;
+testRunner.testCase.setPropertyValue( 'acctNumber',bankAccount);</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="603c43bd-6551-4727-b35f-2447b90b7c74" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="DB Demo" searchProperties="true"><con:settings/><con:testStep type="groovy" name="DB Query Demo of Mysql" id="a9286c05-0784-47e8-9c2c-57c30e574f13"><con:settings/><con:config><script>import groovy.sql.Sql;
+
+//define the default value of db connection as following
+def dbUrl = "jdbc:mysql://percona.service.cat1.nzlc.co.nz:3306/p2p"
+def dbUName = "***"
+def dbPwd = "***"
+def dbDriver ="com.mysql.jdbc.Driver"
+
+/*
+dbUrl = testRunner.testCase.testSuite.getPropertyValue( 'dbUrl');
+dbUName = testRunner.testCase.testSuite.getPropertyValue( 'dbUName');
+dbPwd = testRunner.testCase.testSuite.getPropertyValue( 'dbPwd');
+dbDriver = testRunner.testCase.testSuite.getPropertyValue( 'dbDriver');
+*/
+
+// register MySQL JDBC driver
+com.eviware.soapui.support.GroovyUtils.registerJdbcDriver( dbDriver );
+def  con = Sql.newInstance(dbUrl, dbUName, dbPwd, dbDriver);
+
+def id = testRunner.testCase.testSuite.getPropertyValue( "activeNotificationId")
+def userInfo = con.rows("SELECT * FROM opted_game WHERE status = 1 AND dip_type IS NULL")
+
+
+
+def notificationId = userInfo[0][0]
+def userId = userInfo[0][1]
+def mobileNumber = userInfo[0][2]
+def gameType = userInfo[0][3]
+def dipType = userInfo[0][6]
+def favName = userInfo[0][7]
+def status = userInfo[0][8]
+def codeID = userInfo[0][9]
+def jackThreshold = userInfo[0][10]
+def wagerAmount = userInfo[0][11]
+
+/*
+log.info userInfo[0][0]
+log.info userInfo[0][1]
+log.info userInfo[0][2]
+*/
+
+//Set the notification info to property file
+testRunner.testCase.setPropertyValue( "notificationId",notificationId.toString())
+testRunner.testCase.setPropertyValue( "userId",userId.toString())
+testRunner.testCase.setPropertyValue( "mobileNumber",mobileNumber.toString())</script></con:config></con:testStep><con:testStep type="groovy" name="DB Query Demo of DB2" id="b25b7ffd-5062-4feb-9765-01b43a2b848a"><con:settings/><con:config><script>import groovy.sql.Sql;
+ 
+// Get db connection parameters: dbUrl, dbUName, dbPwd.
+def dbUrl = "jdbc:db2://192.168.100.111:50000/ESI_DB"
+def dbUName = "**"
+def dbPwd = "**"
+def dbDriver = "com.ibm.db2.jcc.DB2Driver"
+
+// register db2 JDBC driver
+com.eviware.soapui.support.GroovyUtils.registerJdbcDriver( dbDriver );
+def  con = Sql.newInstance(dbUrl, dbUName, dbPwd, dbDriver);
+
+def email = testRunner.testCase.getPropertyValue('emailAddr');
+
+//mail ="LolaYan@test.com"
+//mail ="LolaYan@lottonz.co.nz"
+//email ="test1537831great@test.com"
+//email = "ningjinlu@gmail.com";
+
+def activationId = con.rows("Select NZDEV.ES_SECURITY.ACTIVATION_ID From NZDEV.ES_SECURITY where NZDEV.ES_SECURITY.USER_NAME = '"+email.toString()+"'");
+
+log.info activationId[0][0]
+def activationIdStr=activationId[0][0].toString();
+//log.info activationIdStr
+testRunner.testCase.setPropertyValue( 'activationId', activationIdStr );
+</script></con:config></con:testStep><con:testStep type="groovy" name="DB Update Demo" id="123d6e48-7ec7-4b0a-9e1c-b83d536616df"><con:settings/><con:config><script>import groovy.sql.Sql;
+ 
+// Get db connection parameters: dbUrl, dbUName, dbPwd.
+def dbUrl = "jdbc:db2://192.168.101.100:50000/ESI_DB"
+def dbUName = "***"
+def dbPwd = "***"
+def dbDriver = "com.ibm.db2.jcc.DB2Driver"
+
+/*
+dbUrl = testRunner.testCase.testSuite.getPropertyValue( 'dbUrl');
+dbUName = testRunner.testCase.testSuite.getPropertyValue( 'dbUName');
+dbPwd = testRunner.testCase.testSuite.getPropertyValue( 'dbPwd');
+dbDriver = testRunner.testCase.testSuite.getPropertyValue( 'dbDriver');
+*/
+// register db2 JDBC driver
+com.eviware.soapui.support.GroovyUtils.registerJdbcDriver( dbDriver );
+def  con = Sql.newInstance(dbUrl, dbUName, dbPwd, dbDriver);
+
+def email = testRunner.testCase.getPropertyValue('userName');
+//email = "LolaYan@lottonz.co.nz"
+email = "LolaYan@password.com"
+log.info email
+
+//Execute the updates
+con.executeUpdate("update nzdev.es_security set password='C8F3A2669B8C51DD3795164B451DAFB66B8A1098', encrypted_password='pCyg1s0nxYWm00BhOekOPQ==', salt='68D570D3' ,login_status =0 , invalid_logons=0 where USER_name='"+email.toString()+"'");
+
+
+</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="54a8f034-892a-4b7b-9c34-d7f3facd1dfa" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Date Time Demo" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Past Date Time Demo" id="51da42a6-f0b9-4aaf-9f03-b775406fd533"><con:settings/><con:config><script>import java.text.SimpleDateFormat
+
+def purchaseDate ="2016-03-19+13:00".toString()
+log.info purchaseDate
+Date date = new SimpleDateFormat("yyyy-MM-dd'+'HH:mm").parse(purchaseDate);
+String formattedDate = new SimpleDateFormat("dd/MM/yyyy").format(date);
+log.info formattedDate
+//messageExchange.modelItem.testStep.testCase.testSuite.setPropertyValue( "enddateTrnxHist",formattedDate)
+
+
+ /*
+def date = new Date()
+
+String formattedDate = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(date);
+
+testRunner.testCase.testSuite.setPropertyValue( "DateEntry",formattedDate.toString())
+*/</script></con:config></con:testStep><con:testStep type="groovy" name="Current Date Time Demo" id="89c8bdc0-4f57-417f-ba3d-891999019a46"><con:settings/><con:config><script>import java.text.SimpleDateFormat
+
+def date = new Date()
+String formattedDate = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(date);</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="746f220c-a799-409a-8239-bec849203f37" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Json Data Demo" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Read json from response body" id="a5a9e274-f991-47f9-8a74-934ad5cf4fce"><con:settings/><con:config><script>import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import groovy.json.JsonSlurper
+
+def response1 = messageExchange.modelItem.testStep.getPropertyValue("response")
+def jsonSlurper = new JsonSlurper()
+def object1 = jsonSlurper.parseText(response1)
+
+//Get purchaseDate info from response body
+def purchaseDate=object1.purchaseDate</script></con:config></con:testStep><con:testStep type="groovy" name="Assertion Json Data Demo" id="48c6bc3f-6e7d-4376-b8f5-5606cb2ec728"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+/** Use JsonSlurper to parse the json response body **/
+def response1 = messageExchange.modelItem.testStep.getPropertyValue("response")
+def jsonSlurper = new JsonSlurper()
+def object1 = jsonSlurper.parseText(response1)
+
+/* We expect a list of Lotto tickets returned */
+//Get Lotto Draw Number
+def drawNumberArr = object1.drawNumber
+
+//Set the Lotto Draw Number to property file
+messageExchange.modelItem.testStep.testCase.setPropertyValue( "bullseyeDrawNumber",drawNumberArr.toString())
+
+//Get property
+def expectedDrawNum = messageExchange.modelItem.testStep.testCase.getPropertyValue( "latestBullseyeDrawNumber")
+
+assert expectedDrawNum.toString() == drawNumberArr.toString()
+</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="87c032b0-62e9-4aac-a8e2-d497746bd22e" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="XML Data Demo" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Assertion XML Data Demo" id="89f03649-3a03-448e-a4d9-b3b9d1237e9f"><con:settings/><con:config><script>/* using Xmlparser or XmlSlurper  
+ * If you want to transform an existing document to another then XmlSlurper will be the choice
+ * If you want to update and read at the same time then XmlParser is the choice.
+ * Here we using Xmlparser to parse the xml response body
+*/
+def response = messageExchange.modelItem.testStep.properties['ResponseAsXml'].value
+def responseXml = new XmlParser().parseText(response)
+
+/* We expect a list of Lotto tickets returned */
+def drawNumber = responseXml.MainDraw.DrawNumber.text()
+//log.info drawNumber
+
+//Set the Lotto Draw Number to property file
+messageExchange.modelItem.testStep.testCase.setPropertyValue( "bullseyeDrawNumber",drawNumber)
+</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
