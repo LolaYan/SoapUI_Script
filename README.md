@@ -18,7 +18,26 @@ mysql-connector-java-5.1.38-bin.jar: https://dev.mysql.com/downloads/connector/j
 jtds-1.2.5.jar: https://sourceforge.net/projects/jtds/files/
 ```
 
+## Content
+The Script Library will cover content below, with Guiding Docs Link shared via OneDrive:
+
+- Data Source and Data Loop - xls: https://1drv.ms/b/s!ArzKMXZxNUTxhFDa6nOfoSdd1Cim
+- Data Source and Data Loop - txt: https://1drv.ms/b/s!ArzKMXZxNUTxhFHX_8iNVSVQkOVh
+- CSV output of Test Case results: https://1drv.ms/b/s!ArzKMXZxNUTxhFIztgYvoaYYPMEh
+- HTML file output of Test Case results
+- Logging info of test running
+- Confluence API connection: https://1drv.ms/b/s!ArzKMXZxNUTxhE4g9TgNJ8OxnW83
+- Batch Operation
+- Set and get properties info
+- JDBC Connection via JDBC TestStep or Groovy Script: https://1drv.ms/b/s!ArzKMXZxNUTxhE8JOF-PUih6LY1u
+- NZ Bank Account Generator
+- jwt parser (jason web token)
+```
+```
+And more content will be added ......
+
 ## Running the tests
+ 
 
 ## Authors
 
