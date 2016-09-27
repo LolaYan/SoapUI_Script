@@ -10,7 +10,26 @@ here we utilize the Test Cases within my "Script Library" Test Suite to organize
 much like namespaces or different libraries of classes. This way they can be easily located and called from other scripts.
 
 ## Prerequisities
-
+```
+JDK Installed
+```
+## Install
+#### Install SoapUI 
+Download latest version of SoapUI Free Edition from Smartbear website http://www.soapui.org
+Install latests free version.
+#### Install RAML plugin
+Follow this page from Smartbear about RAML plugin https://github.com/SmartBear/soapui-raml-plugin
+Download RAML plugin for SoapUI from Sourceforge
+Unzip soapui RAML plugin 
+Copy contents from unzip file in folder ext to ..\SmartBear\bin\ext
+Go to ...\SmartBear\bin
+Create new folder plugins
+Copy contents from unzip file in folder plugins to ..\SmartBear\bin\plugins
+#### Test SoapUI and RAML installation
+Start soapui
+Create new project
+If you right click on the newly created project, option Import RAML Definition should be list.
+#### Install jars required for DB Operation
 Download following jars, and put them under $SOAPUI_PATH\bin\ext, then restart the SoapUI tool to run the tests.
 ```
 db2jcc.jar: http://www-01.ibm.com/support/docview.wss?uid=swg21363866
